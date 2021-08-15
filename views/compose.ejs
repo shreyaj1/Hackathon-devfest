@@ -1,0 +1,30 @@
+
+<%- include("partials/header"); -%>
+    <h1>Compose Questions</h1>
+    <form class="" action="/compose" method="post">
+      <div class="form-group">
+        <label>Question</label>
+        <textarea class="form-control" name="question" rows="1" cols="30" placeholder="Write the question"></textarea>
+        <label>Option A</label>
+        <textarea class="form-control" name="optiona" rows="1" cols="30"></textarea>
+        <label>Option B</label>
+        <textarea class="form-control" name="optionb" rows="1" cols="30"></textarea>
+        <label>Option C</label>
+        <textarea class="form-control" name="optionc" rows="1" cols="30"></textarea>
+        <label>Option D</label>
+        <textarea class="form-control" name="optiond" rows="1" cols="30"></textarea>
+        
+        <label>Image URL</label>
+        <textarea class="form-control" name="img" rows="1" cols="30" ></textarea>
+        <label>Correct Answer</label>
+        <select class="form-control" name="answer">
+          <option>A</option>
+          <option>B</option>
+          <option>C</option>
+          <option>D</option>
+        </select>
+      </div>
+      <button class="btn btn-primary" type="submit" name="button">Publish</button>
+    </form>
+
+<%- include("partials/footer"); -%>

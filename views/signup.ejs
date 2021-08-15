@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Anirudh Sharma">
+	<link rel = "icon" href="icon.jpg" type="image/x-icon">
+    <title>Create an Account </title>
+    <link rel="stylesheet" href="/login/signup.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  	<link rel="stylesheet" href="/login/topnavbar.css">
+   	<link rel="stylesheet" href="/login/scrollbar.css">
+	<link rel="stylesheet" type="text/css" href="/login/Clock styling.css">
+    <link rel="stylesheet" type="text/css" href="/parts/read/navbar.css">
+
+	<script src="Clock.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+  </head>
+
+  <body>
+
+    <%- include("navbar"); -%>
+  <div class="formbuild">
+       
+      <form class="formbuild" action="index.html" method="post">
+      <h1>Sign Up</h1>
+      <p>Name (Username)</p>
+      <input type="text" name="" placeholder="Enter name (Username)">
+      <p>Email</p>
+      <input type="email" name="" placeholder="Enter your Email-ID">
+      <p>Date of Birth</p>
+      <input type="date" name="" placeholder="Enter your DOB">
+      <p>Contact Number</p>
+      <input type="number" name="" placeholder="Enter Phone Number" pattern="{0-9}[10]">
+
+      <p>Password</p>
+      <input type="text" name="" placeholder="Enter Password"><br>
+       <a href="thankyou.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Create Account</a>
+
+
+
+
+
+    </form>
+
+  </div>
+  
+  	
+<section><div id="clock" class="topcorner"></div></section><br>
+
+  </body>
+</html>
