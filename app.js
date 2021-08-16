@@ -54,6 +54,16 @@ app.get("/contact", function(req, res){
   res.render("contact");
 });
 
+
+app.get("/ar-1", function(req, res){
+  res.render("ar-1");
+});
+
+app.get("/ar-2", function(req, res){
+  res.render("ar-2");
+});
+
+
 app.get("/about", function(req, res){
   res.render("about");
 });
