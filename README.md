@@ -1,12 +1,11 @@
-# Hackathon-devfest
-Mindy.
+#Mindy.
 Mindy is a project aiming at improving Mental health condition of the masses, that detoriated during the COVID Pandemic, due to lack of interaction. We all are aware of the fact that how Humans are social animals, hungry for attention, craving for friendships, and how we all are incomplete without each other. Mindy provides you a platform to check your scale of Mental wellbeing. That's our ultimate aim at Mindy.
 
-About Us
+#About Us
 Mindy. is a non-profit movement empowering the awareness for mental health among the people . It is created to inform the person about his/her mental condition and automatically get a consultancy from a doctor. This is not a site for personal disclosure of suicidal thoughts or behaviours. If you are in crisis, please call 112/911 or go to your nearest emergency department for assistance.
 
-Functionalities
-Pages
+#Functionalities
+##Pages
 1. Landing Page
 The Landing Page is based on an animated background and is the common link to all pages.
 There is a presence of a Chat-bot(On the bottom left corner of the page), where you can book appointments with the doctor with an automated quiz section.
@@ -34,7 +33,7 @@ Redirect to a small quiz that is a part-diagnosis for mental-trauma like Symptom
 This quiz prompts you to book an appointment with a doctor, based on choice selection.
 7. Login/Signup Page
 This is a common page for Signup/Login that is based from SAWO Labs API, that sends OTP to input email address.
-Additional Features
+##Additional Features
 1. NavBar
 Has page links of various interlinked pages, the logo of Mindy. and is well regulated.
 2. Scroll bar
@@ -45,12 +44,12 @@ A logo showing a brain and its beautiful tangles, showing how complex it is, yet
 In the section of the HTML File, we have represented the icon, i.e, just the image part of the logo in the tab.
 5. SAWO Labs Integration
 Integration of SAWO Labs was something where we struggled at initially, but this proved out very helpful, as all the authentication, including OTPs are navigated through this interface.
-Host Links and Other Resources
+#Host Links and Other Resources
 - YouTube Video - https://www.youtube.com/watch?v=qadNBfZ66j4    
 - HerokuApp hosted Site - https://ancient-citadel-56891.herokuapp.com/    [Runtime Terror.docx](https://github.com/AnirudhJS07/Mindy/files/7007018/Runtime.Terror.docx)
 
 - DevFolio Project Link - https://devfolio.co/submissions/mindy-a-mental-health-platform-fb26
-Team Members
+#Team Members
 Abhinav Aggrawal
 Anirudh Sharma
 Shreya Joshi
